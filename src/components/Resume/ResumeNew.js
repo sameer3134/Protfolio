@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/soumyajit4419/portfolio/master/src/Assets/Soumyajit_Behera-BIT_MESRA.pdf";
+  "https://github.com/Daviddaill/Portfolio-1/blob/master/src/Assets/Resume%20-%20David%20Daillere%20%7C%20Fron-End%20Developer.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
