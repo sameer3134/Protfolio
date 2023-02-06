@@ -53,7 +53,7 @@ function Projects() {
               title="Converting PDF into HTMl"
               description="Conversion of over 300 pdf templates to html.
               Use of Html and CSS, with great attention to detail, quick analysis of html structure and effective CSS styling. Creation of a model and components reusable in all files."
-              //ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              ghLink="https://github.com/Daviddaill/Pdf_to_html_template"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
