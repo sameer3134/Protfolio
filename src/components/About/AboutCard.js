@@ -14,17 +14,21 @@ function AboutCard() {
             I'm a junior front-end developer. When I'm not busy working on a project, I like to learn new skills on CodeCademy. My end goal is to become a Full-Stack engineer.
             <br />
             <br />
+            I share my time between France and Sri Lanka,
+            I like to get up early and start the day surfing, exercising or just taking a walk. Once back home and full of oxygen, I like to stretch, have a cup of coffee and start working :)
+            <br />
+            <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-            🏄 Surfing
+              🏄 Surfing
             </li>
             <li className="about-activity">
-            🥾 Trekking
+              🥾 Trekking
             </li>
             <li className="about-activity">
-            🌏 Travelling
+              🌏 Travelling
             </li>
           </ul>
 
