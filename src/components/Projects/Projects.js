@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import leaf from "../../Assets/Projects/leaf.jpg";
+import recipe from "../../Assets/Projects/recipe.png";
+import template from "../../Assets/Projects/template.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
@@ -25,11 +25,11 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Gérer Mon Gîte"
-              description="A simple desktop app to help short-term rental home owners manage their business.
-              Record reservations, Create contracts, invoices, e-mails and customer logbook automatically, Access statistics and turnover."
-              ghLink="https://github.com/Daviddaill/Booking-Management-System"
-              demoLink="https://www.gerer-mon-gite.com/"
+              title="Packet Sniffing"
+              description="I have completed this project in IIT-Roorkee. Packet Sniffer is used for capturing and monitor the network traffic through the installation
+              of software on our device.It inspects and extract the valuable information such as passwords, IP addresses etc."
+              ghLink="https://github.com/sameer3134/Internship"
+              
             />
           </Col>
 
@@ -39,10 +39,11 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Full-Stack Engineer Course"
-              description="Get quick access to all the information you need with this comprehensive course. Each important topic is separated by card and each card as chapter and sub-chapter links to help you get the job done."
-              ghLink="https://github.com/Daviddaill/Daviddaill-fullstack-course"
-              demoLink="https://daviddaill.github.io/Daviddaill-fullstack-course/index.html"
+              title="Shopping-Site"
+              description="In this project, I used Reactjs , Nodejs and Expressjs. It has two pages in which one them is Shopping-Cart. if product is select then i put it in cart.we can apply filter on diifferent basis. 
+              We use nodejs library faker to extract different data for product."
+              ghLink="https://github.com/sameer3134/Shopping-site"
+              demoLink="https://msshopping.netlify.app/"
             />
           </Col>
 
@@ -50,11 +51,35 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Converting PDF into HTMl"
-              description="Conversion of over 300 pdf templates to html.
-              Use of Html and CSS, with great attention to detail, quick analysis of html structure and effective CSS styling. Creation of a model and components reusable in all files."
-              ghLink="https://github.com/Daviddaill/Pdf_to_html_template"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Website Template"
+              description="Its a simple website in which we design a static web-template by using Reactjs and for css we use tailwind-css"
+              ghLink="https://github.com/sameer3134/WebDesignTemplate"
+               demoLink="https://sameer3134.github.io/WebDesignTemplate/"
+            />
+          </Col>
+       
+       
+       
+       
+       
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={recipe}
+              isBlog={false}
+              title="Food-recipe"
+              description="We use api to extract recipes. whatever the name of ingredients we search. it will show all the recipe can make from it."
+              ghLink="https://github.com/sameer3134/food-recipe"
+               demoLink="https://msfoodrecipe.netlify.app//"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={template}
+              isBlog={false}
+              title="Website Template"
+              description="We design a static webiste of consultancy services company by using Reactjs and Tailwind-Css"
+              ghLink="https://github.com/sameer3134/Osumare"
+               demoLink="https://sameer3134.github.io/osumarecom/"
             />
           </Col>
         </Row>

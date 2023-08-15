@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/profile.png";
+import myImg from "../../Assets/profile.jpeg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -21,7 +21,7 @@ function Home2() {
             <p className="home-about-body">
               I fell in love with programming 2 years ago and since then I've been learning new skills every day.
               I am very committed to every job I take on and I like things to be done well and efficiently.
-
+              
               <br />
               <br />I am fluent in classics like
               <i>
@@ -34,14 +34,14 @@ function Home2() {
                 <b className="purple">web and software development </b> 
                 in areas related to{" "}
                 <b className="purple">
-                sound and lighting, booking management system and all types of projects with positive impacts .
+              designing an animated and good looking website.
                 </b>
               </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid" alt="avatar" style={{ borderRadius: "25%"}}/>
             </Tilt>
           </Col>
         </Row>
@@ -54,7 +54,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/Daviddaill"
+                  href="https://github.com/sameer3134"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -64,7 +64,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/david-daillere-7a1103161/"
+                  href="https://www.linkedin.com/in/mohdsameer3134/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -74,7 +74,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/david_daill"
+                  href="https://www.instagram.com/sameer_.3134"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

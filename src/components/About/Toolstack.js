@@ -4,30 +4,30 @@ import {
   SiLinux,
   SiVisualstudiocode,
   SiEclipseide,
-  SiCpanel,
+  SiCpanel,SiWireshark
 } from "react-icons/si";
 import {
-  DiNetbeans,
-  DiGithubBadge,
+  DiGithubBadge,DiLinux
 } from "react-icons/di";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNetbeans />
-      </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiEclipseide />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGithubBadge />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiCpanel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiLinux />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiWireshark />
       </Col>
     </Row>
   );

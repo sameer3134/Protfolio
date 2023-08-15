@@ -8,13 +8,13 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, my name is <span className="purple">David Daillère </span>
-            from <span className="purple"> Angers, France</span>.
+            Hi Everyone, my name is <span className="purple">Mohd Sameer </span>
+            from <span className="purple"> Kanpur, India</span>.
             <br />
-            I'm a junior front-end developer. When I'm not busy working on a project, I like to learn new skills on CodeCademy. My end goal is to become a Full-Stack engineer.
+            I'm a junior developer. I am pursuing my Bachelors from HBTU, Kanpur (2020-2024). My current GPA is 7.62 out of 10. My end goal is to become a Full-Stack engineer.
             <br />
             <br />
-            I share my time between France and Sri Lanka,
+            I share my time to explore India,
             I like to get up early and start the day surfing, exercising or just taking a walk. Once back home and full of oxygen, I like to stretch, have a cup of coffee and start working :)
             <br />
             <br />
@@ -33,9 +33,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "#a4e7ff" }}>
-            "Develop and design applications to empower projects and make a difference"{" "}
+            "Always focus on learning new things."{" "}
           </p>
-          <footer className="blockquote-footer">David D.</footer>
+          <footer className="blockquote-footer">Mohd Sameer</footer>
         </blockquote>
       </Card.Body>
     </Card>

@@ -7,7 +7,7 @@ import {
   DiNodejs,
   DiJavascript1,
   DiHtml5,
-  DiGit,
+  DiMongodb,DiGit
 } from "react-icons/di";
 import {
   SiCsswizardry,
@@ -38,6 +38,12 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMongodb/>
       </Col>
     </Row>
   );
